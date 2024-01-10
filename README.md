@@ -1,0 +1,1 @@
+# szmgr_swe

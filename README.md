@@ -1,4 +1,4 @@
-# szmgr_swe
+# SZMGR_SWR
 
 Specialization DEV - Design and development of software systems
 

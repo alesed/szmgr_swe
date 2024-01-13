@@ -157,7 +157,7 @@
 - **NoSQL:** Alternativa relacni DB, manipulace nestrukturovanych dat. Vetsi skalovatelnost a flexibilita, problem s konzistenci a deduplikaci
 - **Caching:** In-memory ukladani dat/vysledku pro rychlejsi pristup k opakujicim se pozadavkum (pred db, pred serverem, pred klientem), napr redis
 
----
+--
 
 ## Glossary
 

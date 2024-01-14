@@ -252,12 +252,10 @@
 - **SQP** (Software quality planning)
   - Jake "quality standards" maji byt pouzity, definovani cilu, estimovani effortu
 - **SQA** (Software quality assurance)
-  - TODO:
+  - Process focused - set aktivit zajistujici kvalitu v SW procesech
+  - Prevence (CI/CD, code analysis)
 - **SQC** (Software quality control)
-  - TODO:
+  - Product focused - set aktivit pro zajisteni kvality SW produktu
+  - Identifikace defektu v releaslem produktu
 - **SPI** (Software process improvement)
-
-  - TODO:
-
-- SQA vs SQC
-  - SQA
+  - Zlepsovani procesu se zamerem zlepsovani SW kvality

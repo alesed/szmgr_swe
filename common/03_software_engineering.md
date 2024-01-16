@@ -253,3 +253,24 @@
 - Oprava bugu, aktualizace a vylepseni (soucasti by mel bych changelog)
 - Znovupouzitelnosti je mysleno prepouziti service/celeho SW
   - prepouziti internich struktur je vicemene no-go (pokud to neni jen library)
+
+## Glossary
+
+### COCOMO (Constructive Cost Model)
+
+- Cena vyvoje primo zavisi na velikosti SW
+- Presnost odhadu velikosti SW zavisi na etape vyvoje
+  - pozdejsi etapa = presnejsi
+- E - Effort (prace, clovek-mesic)
+- T - Doba vyvoje (mesic)
+- Zdroje dat jsou predchozi komplexni projekty
+- Rozhovory s manazery
+
+### Lehmanovy zakony
+
+- Z1: Konstantni zmena systemu v realnem pouziti
+- Z2: Zvysujici se komplexita
+- Z3: Sebe-regulace systemu
+  - Rychlost zmen se muze jevit nahodna
+  - Z dlouhodobeho hlediska se vsak jedna o seberegulujici proces, ktery lze sledovat a predvidat
+- Z4: Tempo vyvoje systemu je +- nemenne a nekoreluje s investovanymi zdroji

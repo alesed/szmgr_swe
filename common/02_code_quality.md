@@ -259,3 +259,31 @@
   - Identifikace defektu v releaslem produktu
 - **SPI** (Software process improvement)
   - Zlepsovani procesu se zamerem zlepsovani SW kvality
+
+## Glossary
+
+### CMM (Capability Maturity Model)
+
+- Framework pro analyzovani pristupu a techniky vyvoje SW produktu v organizaci
+- Na zaklade feedbacku a best practices nejuspesnejsich organizaci
+- 5 levelu
+- LEVEL 1:
+  - Adhoc procesy
+  - Unstable
+  - Velka sance failnuti projektu
+- LEVEL 2:
+  - Planovani projektu
+  - Sber pozadavku
+  - SQA (software quality assurance)
+- LEVEL 3:
+  - Peer reviews
+  - Koordinace mezi development tymy
+  - Workshopy/Training programy
+  - Organizacni procesy
+- LEVEL 4:
+  - SQM (software quality management)
+- LEVEL 5:
+  - Inovace
+  - Prubezne zlepsovani
+  - Identifikace novych technologii a jejich pouziti
+  - Prevence defektu

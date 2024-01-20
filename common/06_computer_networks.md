@@ -10,9 +10,17 @@
 
 ## ISO/OSI and TCP/IP model
 
+### ISO/OSI
+
+### TCP/IP
+
 ## IP protocol
 
 ## Transport protocols (TCP, UDP)
+
+### TCP (Transmission Control Protocol)
+
+### UDP (User Datagram Protocol)
 
 ## Network layer protocols
 
@@ -22,6 +30,10 @@
 
 ## Peer-to-peer (P2P) networks
 
-## Ad-hoc/sensor networks
+## Ad-hoc/Sensor networks
+
+### Ad-hoc
+
+### Sensor networks
 
 ## Computer networks and multimedia

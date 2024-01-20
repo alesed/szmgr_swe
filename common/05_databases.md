@@ -355,7 +355,7 @@ CREATE INDEX index_name ON Users (age);
   - **silna** - nejsme schopni v rozumnem case najit **libovolne** dva rozdilne vstupy se stejnym hashem
     - **A.K.A.** hledame libovolne (A,B), kdy `h(A) = h(B)`
 
-```
+```text
 m = h(k)
 ```
 

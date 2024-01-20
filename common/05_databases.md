@@ -130,6 +130,25 @@ CONS:
 - Databaze
   - samotne misto ulozeni dat
 
+### Database normalization
+
+- Structuring the database to remove the redundant information
+- Lehci na pochopeni
+- Lepe extendovatelne
+- Ochrana proti INSERT/UPDATE/DELETE anomaliim
+- **1NF:**
+  - nesmime mixovat data types ve stejnem sloupci
+  - musime mit definovany primary key tabulky
+  - serazeni zaznamu nesmi mit zadny vyznam
+  - nesmime mit "repeating groups"
+    - user inventory -> `jdog | weapons | 1 | shields | 2 | coins | 32`
+- **2NF:**
+  - Kazdy neklicovy atribut musi byt primo zavisly na celem primarnim klici
+- **3NF:**
+  - Kazdy neklicovy atribut musi zaviset na klici a na nicem jinem
+- **BCNF (Boyce-Codd Normal Form):**
+  - Kazdy neklicovy atribut musi zaviset na klici a na nicem jinem
+
 ## SQL query language and its parts (definitions, manipulation, transactions)
 
 - Vychazi z relacni algebry

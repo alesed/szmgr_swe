@@ -5,3 +5,13 @@
 [PA103 prednasky](https://is.muni.cz/auth/el/fi/podzim2021/PA103/um/)
 
 [PV167 prednasky](https://is.muni.cz/auth/el/fi/podzim2021/PV167/um/)
+
+## Object-oriented methods of information systems design
+
+## Requirements specification and management
+
+## Design and architectural patterns
+
+## Component interfaces, interface level contracts, OCL
+
+## Software system models, UML

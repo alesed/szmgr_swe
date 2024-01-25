@@ -153,8 +153,9 @@
   - @Controller
   - @Route
 - Drive se pouzivaly web services zalozene na **SOAP** (simple object access protocol) a **XML**, definovane za pomoci **WSDL** (web service definition language)
-- aktualne prevlada **REST** (representational state transfer), **JSON** (ale muzeme pouzit jakykoliv format), definovane za pomoci **OpenAPI** specification nebo **GraphQL**
+- aktualne prevlada **REST** (representational state transfer), **JSON** (ale muzeme pouzit jakykoliv format), definovane za pomoci **OpenAPI** specification
   - NENI TO PROTOKOL, ALE ARCHITEKTONICKY STYL!
+- nebo **GraphQL**
 - **SOAP**
   - je nezavisly na transportu
   - jedna zprava umoznena cilit vice prijemcum

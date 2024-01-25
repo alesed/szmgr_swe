@@ -172,7 +172,7 @@
 - kontext a prostredi, v jakem system funguje
 - interakce s externimi systemy a skupinami uzivatelu
 
-![Context diagram](context_diagram.png)
+![Context diagram](../images/context_diagram.png)
 
 - neresime casti, se kteryma na primo neinteragujeme (to dela [ecosystem map](#ecosystem-map))
 
@@ -183,7 +183,7 @@
   - **extend vazba** = potrebujem najit telefonni cislo -> potrebujeme pro spravny vysledek vykonat akci "vyhledat ve zlatych strankach"
   - **include vazba** = checkout kosiku -> zaroven musime vykonat akci "check login"
 
-![Use case diagram](use_case_diagram.png)
+![Use case diagram](../images/use_case_diagram.png)
 
 #### Conceptual class diagram
 
@@ -201,14 +201,14 @@
 - **Agregace** = bily kosoctverec - popisuje, ze trida obsahuje druhou tridu (ta kterou obsahuje ma u sebe kosoctverec)
 - **Kompozice** = cerny kosoctverec - popisuje, ze trida je nedilnou soucasti jine tridy
 
-![Class diagram](class_diagram.png)
+![Class diagram](../images/class_diagram.png)
 
 #### Object diagram
 
 - zachycuje system za behu v urcitem case
 - zobrazuje konkretni objekty a jejich vazby
 
-![Object diagram](object_diagram.png)
+![Object diagram](../images/object_diagram.png)
 
 ### Behavioral diagrams
 
@@ -217,21 +217,21 @@
 - popisuje workflow systemu/komponent
 - jednoduchy na pochopeni i pro lajka (zakaznika)
 
-![Activity diagram](activity_diagram.png)
+![Activity diagram](../images/activity_diagram.png)
 
 #### Sequence diagram
 
 - popisuje interakce v case mezi jednotkami v systemu
   - tridy/komponenty/actors
 
-![Sequence diagram](sequence_diagram.png)
+![Sequence diagram](../images/sequence_diagram.png)
 
 #### Deployment diagram
 
 - popisuje jednotlive komponenty systemu a jejich komunikacni toky
   - vcetne pouzitych technologii
 
-![Deployment diagram](deployment_diagram.png)
+![Deployment diagram](../images/deployment_diagram.png)
 
 #### Component diagram
 
@@ -239,7 +239,7 @@
 - **tridni notace** (vazby vcetne deklarace interface)
 - **lollipop notace** (required interface + provided interface)
 
-![Component diagram](component_diagram.png)
+![Component diagram](../images/component_diagram.png)
 
 ## Glossary
 
@@ -260,7 +260,7 @@
 
 - znazornuje cely kontext (vcetne casti, se kteryma na primo nekomunikujeme)
 
-![Ecosystem map](ecosystem_map.png)
+![Ecosystem map](../images/ecosystem_map.png)
 
 ### Analytical patterns
 

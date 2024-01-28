@@ -132,7 +132,7 @@
 - **State**: jednoduchy prechod stavu v systemu pomoci contextu a referenci na dalsi stav
 - **Command**: request/pozadavek je nezavisly objekt, ktery drzi vsechny informace/implementace chovani - muzeme commandy referencovat dale v kodu a volat jako callbacky
 - **Mementum**: uchovavani predchozich stavu, moznost rollbacku
-- **Chain of Responsibility**:
+- **Chain of Responsibility**: objekt ma referenci na dalsi, rekurzivne se zanoruje a vykonava operace
 - **Iterator**: vytvoreni rozhrani k pruchodu kolekce prvku - hasNext(), next()
 - **Visitor**: umoznuje spousteni stejne akce/vypoctu nad ruznymi objekty. Objekty maji implementaci rozlisnou, ale jednotne je rozhrani
 - **Observer**: registrovani observeru do subsriberu, komunikace se vsemi observery pomoci jedne metody (notifyAll() treba)

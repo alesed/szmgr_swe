@@ -494,23 +494,30 @@ Genialni [video](https://www.youtube.com/watch?v=AD-iXWANggo&ab_channel=AaronYoo
 Pokud mame neosetrenou memory boundary, muze utocnik teto vulnerability vyuzit a uskutecnist nasluedujici:
 
 1. Ve **STACKu** prepsat memory v RAM
-2. funkce ma svuj buffer a za nim navratovou hodnot (respektive return address)
-3. pokud velikost inputu, respektive velikost adresace bufferu, prepiseme a vcetne bufferu prepiseme i return address
-4. muzeme spustit kod na jine lokaci (lokaci prepsane return address)
-5. 2 moznosti:
+2. funkce ma svuj buffer a za nim navratovou hodnotu (respektive return address)
+3. pokud velikost inputu (respektive velikost adresace bufferu) prepiseme, tzn vcetne bufferu prepiseme i return address
+4. muzeme spustit kod na jine lokaci (na lokaci odkazovane z prepsane return address)
+5. **2 moznosti:**
    1. spustit existujici kod
    2. spusit svuj kod - **jak?**
       1. do bufferu funkce vlozime svuj vlastni kod, ktery chceme executnout
-      2. return addressu prepiseme, aby referencovala zacatek bufferu
-      3. return addressa executne kod v ramci bufferu
+      2. return address prepiseme, aby referencovala zacatek bufferu
+      3. return address executne kod v ramci bufferu
       4. custom code EXECUTED - tadaaa
 
 ![Buffer-overflow exploit](../images/buffer-overflow.png)
 
 **Mentionable notes:**
 
-- executovat runnable program s root accessem se nam muze seredne vymstit
-  - pokud v kodu existuje possible buffer-overlow, muzeme spustit vlastni kod, ktery spusti shell/terminal (ten ma !!**root**!! prava a utocnik si muze delat co chce)
+Obrana:
+
+- checkovani memory boundaries (sizeof)
+- pouzivani memory allocation safe jazyku (takze nejlepe zadne C nebo C++)
+- randomizace pameti
+
+Executovat runnable program s root accessem se nam muze seredne vymstit
+
+- pokud v kodu existuje possible buffer-overlow, muzeme spustit vlastni kod, ktery spusti shell/terminal (ten ma !!**root**!! prava a utocnik si muze delat co chce)
 
 ### Common Weaknesses Enumeration examples
 
